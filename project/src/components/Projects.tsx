@@ -31,13 +31,13 @@ export const Projects: React.FC = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="absolute top-4 right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
                     <a
-                      href={project.liveUrl}
+                      href={project.liveUrl} target='_blank'
                       className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors duration-200"
                     >
                       <ExternalLink className="w-4 h-4 text-gray-700" />
                     </a>
                     <a
-                      href={project.githubUrl}
+                      href={project.githubUrl} target='_blank'
                       className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors duration-200"
                     >
                       <Github className="w-4 h-4 text-gray-700" />

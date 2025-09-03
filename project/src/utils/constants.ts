@@ -16,8 +16,8 @@ export const PROJECTS = [
     description: 'Full-stack subscription tracker built with React, Node.js, and MongoDB integration.',
     image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://tracksub-app.vercel.app',
+    githubUrl: 'https://github.com/srivastava-aryan/Tracksub',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ export const PROJECTS = [
     image: 'https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['React', 'Node.js', 'TypeScript', 'Vite'],
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/srivastava-aryan/MyPortfolio',
   },
   {
     id: 3,
@@ -34,8 +34,8 @@ export const PROJECTS = [
     description: 'AI-powered meeting summarizer for crisp, actionable notes.',
     image: 'https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['TypeScript', 'Express', 'OpenAI API', 'Node.js'],
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://mango-desk-delta.vercel.app',
+    githubUrl: 'https://github.com/srivastava-aryan/MangoDesk',
   },
 ];
 
