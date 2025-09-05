@@ -16,7 +16,7 @@ export const PROJECTS = [
     description: 'Full-stack subscription tracker built with React, Node.js, and MongoDB integration.',
     image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
-    liveUrl: 'https://tracksub-app.vercel.app',
+    liveUrl: 'https://tracksub-app.onrender.com/',
     githubUrl: 'https://github.com/srivastava-aryan/Tracksub',
   },
   {
