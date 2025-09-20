@@ -99,12 +99,12 @@ export const Skills: React.FC = () => {
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl border border-blue-200 dark:border-blue-800">
                 <Target className="w-8 h-8 text-blue-600 dark:text-blue-400 mx-auto mb-3" />
-                <div className="text-2xl font-bold text-blue-600 dark:text-blue-400 mb-1">150+</div>
+                <div className="text-2xl font-bold text-blue-600 dark:text-blue-400 mb-1">200+</div>
                 <p className="text-gray-600 dark:text-gray-300 text-sm">Total Problems</p>
               </div>
               <div className="text-center p-6 bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-900/20 dark:to-green-900/20 rounded-xl border border-emerald-200 dark:border-emerald-800">
                 <Award className="w-8 h-8 text-emerald-600 dark:text-emerald-400 mx-auto mb-3" />
-                <div className="text-2xl font-bold text-emerald-600 dark:text-emerald-400 mb-1">15+</div>
+                <div className="text-2xl font-bold text-emerald-600 dark:text-emerald-400 mb-1">12+</div>
                 <p className="text-gray-600 dark:text-gray-300 text-sm">Contests Participated</p>
               </div>
               <div className="text-center p-6 bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-xl border border-amber-200 dark:border-amber-800">
