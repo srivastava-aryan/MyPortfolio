@@ -43,7 +43,7 @@ export const DSA_PLATFORMS = [
   {
     name: 'LeetCode',
     username: 'your_username',
-    solved: 200,
+    solved: 170,
     rating: 1650,
     badge: 'Beginner',
     color: 'from-orange-500 to-yellow-500',

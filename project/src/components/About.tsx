@@ -76,7 +76,7 @@ export const About: React.FC = () => {
                   </div>
                   <div className="text-center">
                     <div className="flex items-center justify-center w-16 h-16 bg-emerald-600 rounded-full mx-auto mb-4">
-                      <span className="text-2xl font-bold text-white">150+</span>
+                      <span className="text-2xl font-bold text-white">200+</span>
                     </div>
                     <p className="text-sm font-semibold text-gray-700 dark:text-gray-300">DSA Problems Solved</p>
                   </div>
