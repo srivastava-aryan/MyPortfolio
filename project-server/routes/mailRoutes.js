@@ -5,6 +5,14 @@ const nodemailer = require("nodemailer");
 router.post("/", async (req, res) => {
   const { name, email, subject, message } = req.body;
 
+  // Add validation
+  if (!name || !email || !subject || !message) {
+    return res.status(400).json({ 
+      success: false, 
+      message: "All fields are required" 
+    });
+  }
+
   try {
     let transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
@@ -17,17 +25,25 @@ router.post("/", async (req, res) => {
     });
 
     await transporter.sendMail({
-      from: `<${email}>`,
-      to: process.env.EMAIL_USER, // you will receive the mail
-      replyTo: `"${name}" <${email}>`,
-      subject: `${subject}`,
-      text: message,
+      from: `"Portfolio Contact" <${process.env.EMAIL_USER}>`, // FIXED: Must use your authenticated email
+      to: process.env.EMAIL_USER,
+      replyTo: email, // User's email for easy reply
+      subject: `Portfolio: ${subject} - from ${name}`,
+      html: `
+        <h3>New Contact Form Submission</h3>
+        <p><strong>From:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Subject:</strong> ${subject}</p>
+        <p><strong>Message:</strong></p>
+        <p>${message}</p>
+      `,
+      text: `From: ${name} (${email})\nSubject: ${subject}\n\n${message}`,
     });
 
     res.json({ success: true, message: "Email sent successfully 🚀" });
   } catch (error) {
-    console.error(error);
-    res.status(500).json({ success: false, message: "Email failed ❌" });
+    console.error("Email error:", error.message); // Better error logging
+    res.status(500).json({ success: false, message: "Failed to send email" });
   }
 });
 
