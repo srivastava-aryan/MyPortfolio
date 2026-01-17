@@ -5,12 +5,16 @@ const mailRoutes = require("./routes/mailRoutes");
 const app = express();
 
 // Middleware
-app.use(cors({ origin: [
-  // "http://localhost:5173",
-  "https://aryan-srivastava-08.vercel.app",
-  "https://aryansrivastava.me"
-],
-  }));
+app.use(
+  cors({
+    origin: [
+      // "http://localhost:5173",
+      "https://aryan-srivastava-08.vercel.app",
+      "https://aryansrivastava.me",
+    ],
+    credentials: true,
+  }),
+);
 app.use(express.json());
 
 // Routes
