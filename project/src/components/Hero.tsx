@@ -36,15 +36,15 @@ export const Hero: React.FC = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-fade-in-up delay-200">
             <button
-              onClick={()=> window.open('/Aryan_Resume.pdf', '_blank')}
+              onClick={()=> window.open('/aryan_resume_jan.pdf', '_blank')}
               className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
               View My Resume
             </button>
             <button 
               onClick={() => {
                       const link = document.createElement('a');
-                      link.href = '/Aryan_Resume.pdf';
-                      link.download = 'Aryan_Resume.pdf';
+                      link.href = '/aryan_resume_jan.pdf';
+                      link.download = 'aryan_resume_jan.pdf';
                       link.click();
                       }}
               className="px-8 py-4 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:border-blue-600 dark:hover:border-blue-400 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg">

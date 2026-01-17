@@ -16,7 +16,7 @@ export const PROJECTS = [
     description: 'Full-stack subscription tracker built with React, Node.js, and MongoDB integration.',
     image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
-    liveUrl: 'https://tracksub-app.onrender.com/',
+    liveUrl: 'https://tracksub.aryansri.tech/',
     githubUrl: 'https://github.com/srivastava-aryan/Tracksub',
   },
   {
@@ -34,7 +34,7 @@ export const PROJECTS = [
     description: 'AI-powered meeting summarizer for crisp, actionable notes.',
     image: 'https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['TypeScript', 'Express', 'OpenAI API', 'Node.js'],
-    liveUrl: 'https://mango-desk-delta.vercel.app',
+    liveUrl: 'https://aimeet.aryansri.tech',
     githubUrl: 'https://github.com/srivastava-aryan/MangoDesk',
   },
 ];
