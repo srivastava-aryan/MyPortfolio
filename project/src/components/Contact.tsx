@@ -28,7 +28,7 @@ export const Contact: React.FC = () => {
 
     try {
       const res = await axios.post<ContactResponse>(
-        "http://localhost:5000/api/contact",
+        `${import.meta.env.VITE_API_URL}/api/contact`,
         formData
       );
       setStatus(res.data.message);
