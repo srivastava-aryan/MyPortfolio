@@ -10,7 +10,7 @@ app.use(
     origin: [
       // "http://localhost:5173",
       "https://aryan-srivastava-08.vercel.app",
-      "https://aryansrivastava.me",
+      "https://www.aryansrivastava.me",
     ],
     credentials: true,
   }),
