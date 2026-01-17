@@ -5,7 +5,10 @@ const mailRoutes = require("./routes/mailRoutes");
 const app = express();
 
 // Middleware
-app.use(cors({ origin: ["http://localhost:5173","https://aryan-srivastava-08.vercel.app"], credentials: true }));
+app.use(cors({ origin: [
+  // "http://localhost:5173",
+  "https://aryan-srivastava-08.vercel.app"],
+   credentials: true }));
 app.use(express.json());
 
 // Routes
@@ -19,5 +22,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
