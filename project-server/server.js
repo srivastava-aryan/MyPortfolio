@@ -7,7 +7,9 @@ const app = express();
 // Middleware
 app.use(cors({ origin: [
   // "http://localhost:5173",
-  "https://aryan-srivastava-08.vercel.app"],
+  "https://aryan-srivastava-08.vercel.app",
+  "https://aryansrivastava.me"
+],
   }));
 app.use(express.json());
 
