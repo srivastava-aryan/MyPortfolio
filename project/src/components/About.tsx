@@ -70,13 +70,13 @@ export const About: React.FC = () => {
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
                     <div className="flex items-center justify-center w-16 h-16 bg-blue-600 rounded-full mx-auto mb-4">
-                      <span className="text-2xl font-bold text-white">10+</span>
+                      <span className="text-2xl font-bold text-white">14+</span>
                     </div>
                     <p className="text-sm font-semibold text-gray-700 dark:text-gray-300">Projects Completed</p>
                   </div>
                   <div className="text-center">
                     <div className="flex items-center justify-center w-16 h-16 bg-emerald-600 rounded-full mx-auto mb-4">
-                      <span className="text-2xl font-bold text-white">200+</span>
+                      <span className="text-2xl font-bold text-white">250+</span>
                     </div>
                     <p className="text-sm font-semibold text-gray-700 dark:text-gray-300">DSA Problems Solved</p>
                   </div>

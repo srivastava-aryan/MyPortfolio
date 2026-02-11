@@ -8,7 +8,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      // "http://localhost:5173",
+      "http://localhost:5173",
       "https://aryan-srivastava-08.vercel.app",
       "https://www.aryansrivastava.me",
     ],

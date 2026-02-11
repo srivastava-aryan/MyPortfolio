@@ -99,7 +99,7 @@ export const Skills: React.FC = () => {
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl border border-blue-200 dark:border-blue-800">
                 <Target className="w-8 h-8 text-blue-600 dark:text-blue-400 mx-auto mb-3" />
-                <div className="text-2xl font-bold text-blue-600 dark:text-blue-400 mb-1">200+</div>
+                <div className="text-2xl font-bold text-blue-600 dark:text-blue-400 mb-1">250+</div>
                 <p className="text-gray-600 dark:text-gray-300 text-sm">Total Problems</p>
               </div>
               <div className="text-center p-6 bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-900/20 dark:to-green-900/20 rounded-xl border border-emerald-200 dark:border-emerald-800">
@@ -133,8 +133,8 @@ export const Skills: React.FC = () => {
               <p className="text-gray-600 dark:text-gray-300 text-sm">Data Management</p>
             </div>
             <div className="text-center p-6 bg-purple-50 dark:bg-purple-900/20 rounded-xl">
-              <div className="text-2xl font-bold text-purple-600 dark:text-purple-400 mb-2">DevOps</div>
-              <p className="text-gray-600 dark:text-gray-300 text-sm">CI/CD & Cloud</p>
+              <div className="text-2xl font-bold text-purple-600 dark:text-purple-400 mb-2">AI</div>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">Automation & Intelligence</p>
             </div>
           </div>
         </div>

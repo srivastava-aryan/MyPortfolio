@@ -21,12 +21,12 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: 'DevPortfolio',
-    description: 'Personal portfolio website built with React, Vite, and TypeScript to showcase projects and skills.',
+    title: 'Codebase-Navigator',
+    description: 'AI-powered platform that lets developers chat with any GitHub repository using Retrieval-Augmented Generation (RAG), delivering accurate answers with source-level traceability.',
     image: 'https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['React', 'Node.js', 'TypeScript', 'Vite'],
+    technologies: ['LangChain', 'ChromaDB', 'Node.js', 'TypeScript', 'OpenAI'],
     liveUrl: '#',
-    githubUrl: 'https://github.com/srivastava-aryan/MyPortfolio',
+    githubUrl: 'https://github.com/srivastava-aryan/codebase-navigator',
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ export const DSA_PLATFORMS = [
   {
     name: 'CodeChef',
     username: 'your_username',
-    solved: 80,
+    solved: 40,
     rating: 1200,
     badge: '4 Star',
     color: 'from-amber-500 to-orange-500',
@@ -63,7 +63,7 @@ export const DSA_PLATFORMS = [
   {
     name: 'Codeforces',
     username: 'your_username',
-    solved: 30,
+    solved: 20,
     rating: 1400,
     badge: 'Beginner',
     color: 'from-cyan-500 to-blue-500',
@@ -73,7 +73,7 @@ export const DSA_PLATFORMS = [
   {
     name: 'HackerRank',
     username: 'your_username',
-    solved: 180,
+    solved: 70,
     rating: 2100,
     badge: '5 Star',
     color: 'from-green-500 to-emerald-500',
