@@ -25,7 +25,7 @@ export const PROJECTS = [
     description: 'AI-powered platform that lets developers chat with any GitHub repository using Retrieval-Augmented Generation (RAG), delivering accurate answers with source-level traceability.',
     image: 'https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['LangChain', 'ChromaDB', 'Node.js', 'TypeScript', 'OpenAI'],
-    liveUrl: '#',
+    liveUrl: 'https://codebase-nav.onrender.com',
     githubUrl: 'https://github.com/srivastava-aryan/codebase-navigator',
   },
   {
